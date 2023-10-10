@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300&display=swap");
+header {
+  background-color: #acb69c;
+  padding: 1% 0%;
+}
+header a {
+  color: #f6f8f2;
+  text-decoration: none;
+  padding: 5px;
+}
+
+body {
+  margin: 0%;
+}
+
+header nav {
+  font-family: "Inria Serif", serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
