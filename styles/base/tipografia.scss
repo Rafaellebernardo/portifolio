@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@400;700&display=swap');
 header{
     nav{
         font-family: 'Inria Serif', serif;
@@ -9,4 +9,7 @@ header{
 body{
   font-family: 'Inria Serif', serif;
 
+}
+h1{
+  font-weight: 700;
 }
