@@ -17,6 +17,10 @@ header nav {
   font-family: "Inria Serif", serif;
 }
 
+body {
+  font-family: "Inria Serif", serif;
+}
+
 header {
   display: flex;
   justify-content: space-between;
