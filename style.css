@@ -73,4 +73,13 @@ footer {
   padding: 1em;
 }
 
+#img {
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  padding: 0.5rem;
+}
+
 /*# sourceMappingURL=style.css.map */
