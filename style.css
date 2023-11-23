@@ -9,6 +9,24 @@ header a {
   padding: 5px;
 }
 
+hr {
+  color: #192d21;
+  margin: 8em;
+}
+
+body {
+  background-color: #acb69c;
+}
+
+main {
+  background-color: #f6f8f2;
+}
+
+footer {
+  background-color: #acb69c;
+  color: #f6f8f2;
+}
+
 body {
   margin: 0%;
 }
@@ -39,6 +57,20 @@ header {
 }
 #section1 article {
   text-align: center;
+}
+
+section {
+  margin: 8em;
+}
+
+main {
+  width: 80%;
+}
+
+footer {
+  height: 6em;
+  text-align: center;
+  padding: 1em;
 }
 
 /*# sourceMappingURL=style.css.map */
