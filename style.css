@@ -14,14 +14,6 @@ hr {
   margin: 8em;
 }
 
-body {
-  background-color: #acb69c;
-}
-
-main {
-  background-color: #f6f8f2;
-}
-
 footer {
   background-color: #acb69c;
   color: #f6f8f2;
@@ -45,8 +37,8 @@ h1 {
 
 header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
 }
 
 #section1 {
@@ -59,12 +51,21 @@ header {
   text-align: center;
 }
 
+#realizacoes article img {
+  padding: 2em;
+  align-items: center;
+}
+
+#sobre p {
+  text-align: center;
+}
+
 section {
   margin: 8em;
 }
 
-main {
-  width: 80%;
+#section1 {
+  text-align: center;
 }
 
 footer {
@@ -80,6 +81,48 @@ footer {
 
 a {
   padding: 0.5rem;
+}
+
+@media (max-width: 700px) {
+  header img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: center;
+  }
+  #habilidades article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  #habilidades article img {
+    width: 35%;
+  }
+  #realizacoes article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  #realizacoes article img {
+    width: 40%;
+    padding: 0.5rem;
+  }
+  hr {
+    margin: 3em;
+  }
+  #sobre {
+    margin: 4em;
+  }
+  #formacao {
+    margin: 4em;
+  }
+  h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

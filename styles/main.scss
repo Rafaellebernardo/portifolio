@@ -5,14 +5,13 @@
 @import "layout/footer.scss";
 @import "pages/lar.scss";
 
+
 section{
     margin: 8em;
 
 }
-
-main{
-    width: 80%;
-    
+#section1{
+    text-align: center;
 }
 
 footer{
@@ -28,4 +27,64 @@ footer{
 }
 a{
 padding: 0.5rem;
+}
+
+
+@media (max-width: 700px){
+   
+    header{
+        img{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: center;
+        }
+
+    }
+
+    #habilidades{
+      article{
+         display: flex;
+         flex-direction: row; 
+         align-items: center;
+         justify-content: center;
+        img{
+            width: 35%;
+        }
+      }
+        
+    }
+
+    #realizacoes{
+        article{
+            display: flex;
+            flex-direction: row; 
+            align-items: center;
+            justify-content: center;
+           img{
+               width: 40%;
+               padding: 0.5rem;
+           }
+         }
+
+    }
+    hr{
+        margin:3em;
+    }
+
+    #sobre{
+
+        margin:4em;
+    }
+
+    #formacao{
+       
+        margin: 4em;
+    }
+ h1{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        }
+
 }
